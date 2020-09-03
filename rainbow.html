@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rainbow Filter</title>
+    <style>
+        .c1{
+    height: 400px;
+    width: 400px;
+    border: 2px solid #c3c3c3;
+    border-color: black;
+    align: centre;
+  }
+    </style>
+</head>
+<body style="background-image: url(./IMAGES/rainbow.png); background-repeat: no-repeat; background-size: cover;">
+    <h1 style="background-color: gray;height: 70px;text-align: center; padding: 20px; line-height: 70px;">RAINBOW</h1>
+    <h1>Upload Image</h1>
+    <canvas id ="d1" class= "c1"></canvas>
+    <input type = "file" multiple="false" accept="image/*"  id="f" onchange= "upload()">
+   <p><input type = "button" value = "rainbow" onclick = "makeRainbow()"></p>
+    <p style="float: right; margin: 50px;"><canvas id = "can" class = "c1"></canvas></p>
+</body>
+</html> 
