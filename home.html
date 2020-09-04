@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Filter Booth</title>
     <script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js" >
     </script>
     <script src = "js/home.js"></script>
@@ -50,10 +50,10 @@
         </div>
         <br><br><br>
         <div>
-          <p><h3 style="font-size: 40px;background-color: black; color: white;width: 225px;">Instructions: </h3><br>
-            <p style="font-size: 25px; font-family: cursive;">please upload an image file under the "Choose File" button and then play with filters by selecting the filters under <b>Select Filter</b> section. </p</P><br> <br>
-          <p><h3 style="font-size: 40px;background-color: black; color: white;width: 325px;">Filter Description:</h3><br>
-            <ul style="font-size: 25px; font-family: cursive;">
+          <p><h3>Instructions: </h3><br>
+            <p>please upload an image file under the "Choose File" button and then play with filters by selecting the filters under <b>Select Filter</b> section. </p</P><br> <br>
+          <p><h3>Filter Description:</h3><br>
+            <ul class="Description">
                   <li><b><em>Grey: </em></b>Filter your uploaded image by using contrasting color hues based only on white and black.</li><br>
                   <li><b><em>Red: </em></b>The reddish version of Grayscale filter. The base colors are Red and white.</li><br> 
                   <li><b><em>Blur: </em></b>Make the uploaded picture blurring as well as opaque.</li><br>
@@ -63,22 +63,20 @@
           </ul>
           </P>
         </div>
-        <h2 style="font-size: 40px;background-color: black; color: white;width: 225px;">Select Filter</h2><br><br>
-        <ul style="list-style-type: disc;">
-          <li><b>GRAY</b></li><BR>
-          <li><b>RED</b></li><br>
-          <li><b>BLUR</b></li><br>
-          <li><b>RAUNBOW</b></li><br>
-
-          
+        <h2>Select Filter</h2><br><br>
+        <ul class="list">
+          <li><b><a href="./greyscale.html">GRAY</a></b></li><BR>
+          <li><b><a href="./red.html">RED</a></b></li><br>
+          <li><b><a href="./blur.html"> BLUR</a></b></li><br>
+          <li><b><a href="./rainbow.html">RAINBOW</a></b></li><br>
         </ul>
-    <br></br>
-    <b style="font-size: 40px;background-color: black; color: white;width: 225px;">add frame</b>
-    <ul>
-      <li><input type = "button" value = "black frame" onclick = "bframe()"></li>
-      <li><input type = "button" value = "white frame" onclick = "wframe()"></li>
+    <br>
+    <b class="heading">add frame</b><br><br>
+    <ul class="list">
+      <li><b>BLACK FRAME</b></li><br>
+      <li><b>WHITE FRAME</b></li><br>
     </ul>
-    <input type = "button" value = "Reset Image" onclick = "reset()">
+    <h4><b>Reset Image</b><br></h4>
     </div>
 </body>
 </html>

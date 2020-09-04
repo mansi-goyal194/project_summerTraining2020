@@ -22,7 +22,7 @@ body{
     width: 400px;
     border: 2px solid #c3c3c3;
     border-color: black;
-    align: centre;
+    /* align: centre; */
   }
   .container{
     display: block;
@@ -43,4 +43,29 @@ body{
   .header h1{
     color: black;
   }
-  
+  li a{
+    text-decoration: none;
+
+  }
+  h3{
+    font-size: 40px;
+    background-color:
+     black; color:
+      white;width: 225px;
+  }
+  p{
+    font-size: 25px; font-family: cursive;
+  }
+  .Description{
+    font-size: 25px; font-family: cursive;
+  }
+  h2{
+    font-size: 40px;background-color: black; color: white;width: 225px;
+  }
+  .list{
+    list-style-type: square;
+    margin-left: 100px;
+  }
+  .heading{
+    font-size: 40px;background-color: black; color: white; width: 500px;
+  }

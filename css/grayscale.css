@@ -1,0 +1,32 @@
+body{
+    background-image: url(/IMAGES/grayscale.jpg);
+     background-repeat: no-repeat;
+      background-size: cover;
+}
+.c1{
+    height: 400px;
+    width: 400px;
+    border: 2px solid #c3c3c3;
+    border-color: black;
+    margin-left: 60px;
+    /* align: centre; */
+  }
+ .i{
+      height: 50px;
+      width: 100px;
+      font-style: oblique;
+      font-size: larger;
+      background-color: rgb(86, 89, 94);
+  }
+  h1{
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-weight: 400;
+  }
+  a{
+      font-size: 40px;
+      font-family: sans-serif;
+      background-color: black;
+      color: wheat;
+      text-decoration: none;
+      margin-left: 630px;
+  }
