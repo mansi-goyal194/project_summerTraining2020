@@ -62,3 +62,11 @@ function upload(){
     var spixel = image.getPixel(x, y);
     return spixel;
   }
+  function reset(){
+    if(isImageLoaded(image)){
+      var can = document.getElementById("can");
+      var img = document.getElementById("f");
+      var im = new SimpleImage(img);
+      im.drawTo(can);
+    }
+  }

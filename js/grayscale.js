@@ -29,3 +29,11 @@ function upload(){
      image.drawTo(newCanva);
      }
    }
+   function reset(){
+    if(isImageLoaded(image)){
+      var can = document.getElementById("can");
+      var img = document.getElementById("f");
+      var im = new SimpleImage(img);
+      im.drawTo(can);
+    }
+  }
